@@ -5,6 +5,7 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.9.0",
+    "cheerio": "^1.0.0",
     "decap-cms-app": "^3.0.12",
     "decap-cms-media-library-cloudinary": "^3.0.1",
     "decap-cms-media-library-uploadcare": "^3.0.0",
@@ -18,13 +19,14 @@
     "gatsby-plugin-sharp": "^4.0.0",
     "gatsby-remark-copy-linked-files": "^5.0.0",
     "gatsby-remark-images": "^6.0.0",
-    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-relative-images": "^2.0.5",
     "gatsby-source-filesystem": "^4.0.0",
     "gatsby-transformer-remark": "^5.0.0",
     "gatsby-transformer-sharp": "^4.0.0",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify": "^13.1.21",
+    "parse5": "^7.1.2",
     "prop-types": "^15.6.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
@@ -50,6 +52,6 @@
     "prettier": "^2.0.5"
   },
   "engines": {
-    "node": ">= 14.15.0"
+    "node": ">=18.0.0"
   }
 }
